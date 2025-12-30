@@ -93,7 +93,7 @@ export default function ProductsPage() {
   }
 
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background px-8 py-6">
       <div className="container px-4 py-6">
         <div className="mb-6 flex items-center justify-between">
           <div>
