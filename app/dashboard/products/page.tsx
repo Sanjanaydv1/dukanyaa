@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import { Navbar } from "@/components/navbar"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -95,7 +94,6 @@ export default function ProductsPage() {
 
   return (
     <main className="min-h-screen bg-background">
-      <Navbar />
       <div className="container px-4 py-6">
         <div className="mb-6 flex items-center justify-between">
           <div>
