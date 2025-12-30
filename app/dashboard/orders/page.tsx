@@ -3,7 +3,6 @@
 import { Label } from "@/components/ui/label"
 
 import { useState } from "react"
-import { Navbar } from "@/components/navbar"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
@@ -117,8 +116,7 @@ export default function ShopkeeperOrdersPage() {
   }
 
   return (
-    <main className="min-h-screen bg-background">
-      <Navbar />
+    <main className="min-h-screen bg-background px-8 py-4">
       <div className="container px-4 py-6">
         <div className="mb-6">
           <h1 className="text-3xl font-bold">Orders</h1>
