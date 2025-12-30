@@ -1,6 +1,5 @@
 "use client"
 
-import { Navbar } from "@/components/navbar"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Package, ShoppingCart, TrendingUp, DollarSign } from "lucide-react"
 import Link from "next/link"
@@ -23,8 +22,7 @@ export default function DashboardPage() {
   ]
 
   return (
-    <main className="min-h-screen bg-background">
-      <Navbar />
+    <main className="min-h-screen bg-background px-8 py-6">
       <div className="container px-4 py-6">
         <div className="mb-6">
           <h1 className="text-3xl font-bold">Dashboard</h1>
